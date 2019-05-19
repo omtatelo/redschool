@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
+
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	background-color: #6BBFBF !important;
+}
+
+/*INDEX*/
+
+.gris-gradiente{
+
+	height: 15em;
+	width: 100%;
+	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+}
+
+.navbar-propio{
+	background: transparent none repeat scroll 0% 0% ;
+  	position: fixed;
+  	top: 0px;	
+}
+
+/*quita el borde de la hamburguesa que tiene bootstrap por default*/
+.navbar-propio .navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(img/assets/hambruguesa.svg) !important;
+    width: 1EM;
+    height: 1EM;
+}
+
+.btn-busqueda{
+ 	background-image: url(img/assets/lupa.svg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-color: #6BBFBF !important;
+ 	width: 40px;
+ 	margin-left: 10px;
+    border-radius: 4px !important;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border-color: #6BBFBF !important;
+}
+
+.barra-buscar:not(:last-child){
+    border-top-right-radius: .25rem !important;
+    border-bottom-right-radius: .25rem !important;
+}
+
+.bienvenida{
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 1.02px;
+	text-transform: uppercase;
+	font-size: 1em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 575px) {
+  .barra-busca{
+		width: 60%;
+	}
+  }
+}
+
+/*características de banner standard móvil*/
+.banner{
+	width: 100%;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+
+}
+
+/*Botonería del Index*/
+.btn-index-redschool{
+	background-color: #B8F2F2;
+	margin-top: 10px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+	padding: 1em;
+	border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/*Estilos tipográficos del boton ppal*/
+.btn-index-redschool .btn{
+	color: #098584;
+	font-family: Montserrat;
+	font-size: 0.8rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 0;
+}
+
+/* para poder poner titulo y flecha de lado a lado*/
+.btn-inline{
+	display: inline;
+
+}
+
+/*Control del tamaño del espacio alrededor de la tipografía */
+h2.mb-0.btn-inline{
+	font-size: 0.8rem;
+}
+
+/*Apunta a la derecha*/
+.triangulo1{
+	background-image: url(img/assets/flecha1.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 1.4em;
+	width: 1.4em;
+  	display: inline-block;
+  	position: relative;
+  	float: right;
+
+}
+
+/*Valores para primaria, maternal, secu, etc..*/
+.btn-lv2{
+	font-size: 0.77rem;
+	text-transform: uppercase;
+	padding: 0.7rem 0rem 0rem 0.7rem;
+}
+
+.logo-tumbnail{
+	width: 5em;
+    height: 5em;
+    margin: 6px;
+    background-image: url(img/assets/logo-vacio.png);
+    object-fit: cover;
+    border-radius: 50em;
+}
+
+.negro{
+	margin-top: 15px;
+	padding: 15px 0 15px 0px;
+	background-color: #383838;
+	color: #B8F2F2;
+	text-align: center;
+}
+
+#bienvenida h1{
+	font-size: 1.8em;
+	text-align: center;
+	padding: 1.3em 0 0.9em 0;
+	font-weight: 500;
+}
+
+#bienvenida p{
+	padding-bottom: 30px;
+}
+
+
+p{
+	font-weight: 300;
+	font-size: 0.8em;
+	
+	}
+
+footer img{
+	margin: 1em 0 1em 0;
+	object-fit: cover;
+	max-width: 100%;
+  	height: auto;
+}
+
+a{
+	color: #ffffff !important;
+}
+
+#redes-container{
+	height: 5em;
+}
