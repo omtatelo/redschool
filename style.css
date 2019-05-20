@@ -5,6 +5,25 @@ body{
 	background-color: #6BBFBF !important;
 }
 
+/*espacio entre banner y botones*/
+.columna-derecha{
+	padding-left: 15px;
+}
+/*Elimina el espacio entre banner y botones cuando ya están separados*/
+@media only screen and (max-width: 767px) {
+  .columna-derecha{
+	padding-left: 0px;
+	}
+}
+
+
+.area .row{
+    margin-right: 0px !important;
+    margin-left: 0px!important;
+
+    padding-top: 15px;
+}
+
 /*INDEX*/
 
 .gris-gradiente{
@@ -79,10 +98,11 @@ body{
 
 }
 
+
 /*Botonería del Index*/
 .btn-index-redschool{
 	background-color: #B8F2F2;
-	margin-top: 10px;
+	margin-bottom: 10px;
 	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
 	padding: 1em;
 	border-bottom: 1px solid rgba(0,0,0,.125);
