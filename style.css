@@ -130,8 +130,8 @@ h2.mb-0.btn-inline{
 }
 
 .logo-tumbnail{
-	width: 5em;
-    height: 5em;
+	width: 4.5em;
+    height: 4.5em;
     margin: 6px;
     background-image: url(img/assets/logo-vacio.png);
     object-fit: cover;
