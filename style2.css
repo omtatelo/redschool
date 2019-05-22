@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
+
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	background-color: #EDF5F5 !important;
+}
+
+.gris-gradiente{
+	height: 15em;
+	width: 100%;
+	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+}
+
+h1 {
+	color: #098584;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+.logo-tumbnail2{
+	 width: 90px;
+	 height: 90px;
+}

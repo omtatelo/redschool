@@ -1,86 +1,122 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,500,700');
 
-body{
-	font-family: 'Montserrat', sans-serif !important;
-	background-color: #6BBFBF !important;
-}
+
+:root {
+	--sombra-general: 0 1px 2px 0 rgba(0, 0, 0, 0.5);  
+  }
 
 /*espacio entre banner y botones*/
-.columna-derecha{
+.columna-derecha {
 	padding-left: 15px;
 }
+
 /*Elimina el espacio entre banner y botones cuando ya están separados*/
 @media only screen and (max-width: 767px) {
-  .columna-derecha{
-	padding-left: 0px;
+	.columna-derecha {
+		padding-left: 0px;
 	}
 }
 
 
-.area .row{
-    margin-right: 0px !important;
-    margin-left: 0px!important;
+.area .row {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
 
-    padding-top: 15px;
+	padding-top: 15px;
+}
+
+.area .row .banner {
+	margin-bottom: 15px;
+}
+
+/*Código para breadcrumbs*/
+
+.separador {
+	height: 30px;
+}
+
+ul.breadcrumb {
+	padding: 0px 0px;
+	list-style: none;
+	background-color: transparent;
+}
+
+ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+	color: #3D3D3D;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+ul.breadcrumb li+li:before {
+	padding: 7px;
+	color: black;
+	content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: underline;
 }
 
 /*INDEX*/
 
-.gris-gradiente{
 
-	height: 15em;
-	width: 100%;
-	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
-	z-index: -1;
-	position: absolute;
+
+
+.navbar-propio {
+	background: transparent none repeat scroll 0% 0%;
+	position: fixed;
 	top: 0px;
 }
 
-.navbar-propio{
-	background: transparent none repeat scroll 0% 0% ;
-  	position: fixed;
-  	top: 0px;	
-}
 
-.navbar-brand{
+.navbar-brand {
 	padding-top: 0;
 	margin-top: 0;
 }
 
-#menuRedschool ul li{
+#menuRedschool ul li {
 	height: 38px;
 }
 
 /*quita el borde de la hamburguesa que tiene bootstrap por default*/
 .navbar-propio .navbar-toggler {
-    border-color: transparent !important;
+	border-color: transparent !important;
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url(img/assets/hambruguesa.svg) !important;
-    width: 1EM;
-    height: 1EM;
+	background-image: url(img/assets/hambruguesa.svg) !important;
+	width: 1EM;
+	height: 1EM;
 }
 
-.btn-busqueda{
- 	background-image: url(img/assets/lupa.svg);
- 	background-repeat: no-repeat;
- 	background-position: center;
- 	background-color: #6BBFBF !important;
- 	width: 40px;
- 	margin-left: 10px;
-    border-radius: 4px !important;
-    border-top-right-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-    border-color: #6BBFBF !important;
+.btn-busqueda {
+	background-image: url(img/assets/lupa.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #6BBFBF !important;
+	width: 40px;
+	margin-left: 10px;
+	border-radius: 4px !important;
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+	border-color: #6BBFBF !important;
 }
 
-.barra-buscar:not(:last-child){
-    border-top-right-radius: .25rem !important;
-    border-bottom-right-radius: .25rem !important;
+.barra-buscar:not(:last-child) {
+	border-top-right-radius: .25rem !important;
+	border-bottom-right-radius: .25rem !important;
 }
 
-.bienvenida{
+.bienvenida {
 	color: white;
 	font-weight: 700;
 	text-align: center;
@@ -92,24 +128,54 @@ body{
 }
 
 /*características de banner standard móvil*/
-.banner{
+.banner {
 	width: 100%;
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 
 }
 
+.banner-long {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	/* ensures the image is always in the h-middle */
+	overflow: hidden;
+	/* hide the cropped portion */
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+	margin-bottom: 40px;
+	max-width: 930px !important;
+}
+
+/*Tablets crop de banner grande*/
+@media screen and (max-width: 991px) {
+	.banner-long {
+		height: 180px;
+		width: 660px;
+		text-align: center; /* ensures the image is always in the h-middle */
+    	overflow: hidden; /* hide the cropped portion */
+	}
+
+	.banner-long img {
+		position: relative;
+		/* allows repositioning */
+		left: 100%;
+		/* move the whole width of the image to the right */
+		margin-left: -200%;
+		/* magic! */
+	}
+}
 
 /*Botonería del Index*/
-.btn-index-redschool{
+.btn-index-redschool {
 	background-color: #B8F2F2;
 	margin-bottom: 10px;
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.5);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
 	padding: 1em;
-	border-bottom: 1px solid rgba(0,0,0,.125);
+	border-bottom: 1px solid rgba(0, 0, 0, .125);
 }
 
 /*Estilos tipográficos del boton ppal*/
-.btn-index-redschool .btn{
+.btn-index-redschool .btn {
 	color: #098584;
 	font-family: Montserrat;
 	font-size: 0.8rem;
@@ -119,46 +185,87 @@ body{
 }
 
 /* para poder poner titulo y flecha de lado a lado*/
-.btn-inline{
+.btn-inline {
 	display: inline;
 
 }
 
 /*Control del tamaño del espacio alrededor de la tipografía */
-h2.mb-0.btn-inline{
+h2.mb-0.btn-inline {
 	font-size: 0.8rem;
 }
 
 /*Apunta a la derecha*/
-.triangulo1{
+.triangulo1 {
 	background-image: url(img/assets/flecha1.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 1.4em;
 	width: 1.4em;
-  	display: inline-block;
-  	position: relative;
-  	float: right;
+	/*display: inline-block;*/
+	position: relative;
+	float: right;
 
 }
 
 /*Valores para primaria, maternal, secu, etc..*/
-.btn-lv2{
+.btn-lv2 {
 	font-size: 0.77rem;
 	text-transform: uppercase;
 	padding: 0.7rem 0rem 0rem 0.7rem;
 }
 
-.logo-tumbnail{
+/*tumbnail redondos index*/
+.logo-tumbnail {
 	width: 4.5em;
-    height: 4.5em;
-    margin: 6px;
-    background-image: url(img/assets/logo-vacio.png);
-    object-fit: cover;
-    border-radius: 50em;
+	height: 4.5em;
+	margin: 6px;
+	background-image: url(img/assets/logo-vacio.png);
+	object-fit: cover;
+	border-radius: 50em;
 }
 
-.negro{
+/*tumbnails resultados*/
+.logo-tumbnail2 {
+	height: 40px;
+	width: 40px;
+	background-color: #ffffff;
+	box-shadow: var(--sombra-general);
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	position: relative;
+}
+
+/*Centra el logo verticalmente*/
+.logo-tumbnail2 img {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+/*todo lo que necesite flex*/
+.flex-gen{
+	display: flex;
+}
+
+.escuela-titulo{
+	padding-left: 20px;
+}
+
+.escuela{
+	max-width: 50%;
+}
+
+@media only screen and (max-width: 993px) {
+	.escuela{
+		max-width: 100%;
+	}
+  }
+
+.negro {
 	margin-top: 15px;
 	padding: 15px 0 15px 0px;
 	background-color: #383838;
@@ -166,35 +273,35 @@ h2.mb-0.btn-inline{
 	text-align: center;
 }
 
-#bienvenida h1{
+#bienvenida h1 {
 	font-size: 1.8em;
 	text-align: center;
 	padding: 1.3em 0 0.9em 0;
 	font-weight: 500;
 }
 
-#bienvenida p{
+#bienvenida p {
 	padding-bottom: 30px;
 }
 
 
-p{
+p {
 	font-weight: 300;
 	font-size: 0.8em;
-	
-	}
 
-footer img{
+}
+
+footer img {
 	margin: 1em 0 1em 0;
 	object-fit: cover;
 	max-width: 100%;
-  	height: auto;
+	height: auto;
 }
 
-a{
+a {
 	color: #ffffff !important;
 }
 
-#redes-container{
+#redes-container {
 	height: 5em;
 }
