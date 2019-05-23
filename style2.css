@@ -55,7 +55,14 @@ h1 {
     top: 40px;
 }
 
-footer{
-	position: relative;
+.subnav{
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 0px;	
+}
 
+.subnav li{
+	display: inline;
+	padding: 10px;
+	
 }
