@@ -1,0 +1,107 @@
+body{
+	font-family: 'Montserrat', sans-serif !important;
+	background-color: #6BBFBF !important;
+}
+
+.gris-gradiente{
+
+	height: 15em;
+	width: 100%;
+	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
+	z-index: -1;
+	position: absolute;
+	top: 0px;
+}
+
+.gris-gradiente {
+	height: 10em;
+	width: 100%;
+	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
+	z-index: -5;
+	position: absolute;
+	top: 0px;
+}
+
+@media screen and (max-width:991px) {
+	.gris-gradiente {
+		height: 17em;
+		width: 100%;
+		background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
+		z-index: -5;
+		position: absolute;
+		top: 0px;
+	}
+}
+
+.area {
+	position: relative;
+	margin-top: -210px;
+}
+
+.centrar {
+	text-align: center;
+}
+
+.aparece {
+	display: inline;
+}
+
+@media only screen and (min-width: 992px) {
+	.aparece {
+		display: none;
+	}
+}
+
+@media screen and (max-width:991px) {
+	.se-va {
+		display: none;
+	}
+}
+
+.menu-fixing {
+	z-index: -1;
+	position: relative;
+	background-color: #6BBFBF;
+	height: 200px;
+	top: 40px;
+}
+
+.subnav {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 0px;
+}
+
+.subnav li {
+	display: inline;
+	padding: 10px;
+
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.formulario{
+    align-self: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.formulario input{
+    display: block;
+    padding: 8px 14px 7px 14px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+@media screen and (max-width:991px){
+    .formulario{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+}
