@@ -134,6 +134,17 @@ textarea {
     box-shadow: var(--sombra-general);
 
 }
+.boton {
+    margin-bottom: 15px !important;
+    padding: 8px 14px 7px 14px;
+    background-color: #B8F2F2 !important;
+    color: #098584;
+    text-transform: uppercase;
+    border: 2px;
+    width: 100%;
+    box-shadow: var(--sombra-general);
+
+}
 
 .direccion {
     padding-top: 40px;
@@ -148,8 +159,9 @@ textarea {
 
 .mapa iframe{
     width: 100%;
-    height: 150px;
+    height: 200px;
     margin-top: 40px;
+    margin-bottom: -22px;
 
 }
 
@@ -159,4 +171,12 @@ textarea {
     border-color: #FFFFFF !important;
     padding: 10px;
     margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px){
+    .whatsapp-link{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
 }
