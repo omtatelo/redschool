@@ -1,5 +1,11 @@
 .h1-item{
-    text-align: center
+    text-align: center;
+}
+
+@media screen and (min-width:991px){
+    .h1-item{
+        text-align: left;
+    }
 }
 
 .h1-item h1{
@@ -9,14 +15,15 @@
 
 .portada{
     width: 100%    !important;
-  height: auto   !important;
-    /* position: relative; 
+    height: auto   !important;
+    position: relative; 
     height: 0; 
     overflow: hidden; 
     padding-top: 0; 
     padding-left: 0; 
     padding-right: 0;  
-    padding-bottom: 56.25%; */
+    /* margin-bottom: 56.25%; */
+    display: block;
 }
 
 .portada iframe,
@@ -24,9 +31,21 @@
 .portada embed {
     top: 0; 
     left: 0; 
-    width: 100%; 
-    height: 100%; 
+    width: 100% !important; 
+    /* height: 100%;  */
     border: 0; 
-    position: absolute;
+    /* position: absolute; */
+    display: block;
 }
 
+/* youtube link al principio en responsive */
+@media screen and (max-width:991px){
+    .mover-iframe{
+        -ms-flex-order: -1;
+      order: -1;
+    }
+}
+
+.portada-img{
+    text-align: center;
+}
