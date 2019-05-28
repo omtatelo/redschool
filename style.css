@@ -5,6 +5,10 @@
 	--sombra-general: 0 1px 2px 0 rgba(0, 0, 0, 0.5);  
   }
 
+  img {
+    object-fit: cover;
+}
+
 /*espacio entre banner y botones*/
 .columna-derecha {
 	padding-left: 15px;
@@ -310,7 +314,3 @@ a {
 }
 
 /* object-fit: cover; */
-
-.centrar{
-	text-align: center;
-}
