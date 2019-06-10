@@ -231,6 +231,14 @@ h2.mb-0.btn-inline {
 	border-radius: 50em;
 }
 
+.ver-todas-link{
+	display: block;
+	color: #098584;
+	font-weight: 600;
+	font-size: 1rem;
+	padding: 15px;
+}
+
 /* PANTALLA DE RESULTADOS */
 
 /*tumbnails resultados*/
