@@ -15,7 +15,7 @@
 	<title>Redschool · Tu red escolar</title>
 	<!-- slick -->
 	<link rel="stylesheet" type="text/css" href="slick/slick.css" />
-	
+
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
 </head>
 <nav class="navbar-propio navbar sticky-top navbar-expand-lg navbar-light fixed-top transbox">
@@ -91,28 +91,110 @@
 									<!--empieza menu de escuelas-->
 									<div class="accordion" id="accordionEscuelas">
 
-										<!--PRIMARIAS-->
-										<div id="btnEscuelas1" class="btn-lv2" data-toggle="collapse"
-											data-target="#collapseEscuelas1" aria-expanded="false"
-											aria-controls="collapseEscuelas1">
-											Primarias
-											<div class="collapse" id="collapseEscuelas1" data-toggle="collapse"
-												data-target="#collapseLogos1">
-												<div id="collapseLogos1" class="flex-container" data-toggle="collapse"
-													data-target="#collapseLogos1">
-													<a href="item.html"> <img class="logo-tumbnail"
-															src="img/assets/logo-vacio.png"></img></a>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<img class="logo-tumbnail" src="img/assets/logo-vacio.png"></img>
-													<a class="ver-todas-link" href="resultados.html">Ver Todas</a>
+										<ul class="btn-lv2 nav nav-tabs role=" tablist" id="menuCategorias">
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link active" id="maternal-tab" data-toggle="tab"
+													href="#maternal" role="tab" aria-controls="maternal"
+													aria-selected="true">Maternal</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="kinder-tab" data-toggle="tab"
+													href="#kinder" role="tab" aria-controls="kinder"
+													aria-selected="false">Kinder</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="primaria-tab" data-toggle="tab"
+													href="#primaria" role="tab" aria-controls="primaria"
+													aria-selected="false">Primaria</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="secundaria-tab" data-toggle="tab"
+													href="#secundaria" role="tab" aria-controls="secundaria"
+													aria-selected="false">Secundaria</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="preparatoria-tab" data-toggle="tab"
+													href="#preparatoria" role="tab" aria-controls="preparatoria"
+													aria-selected="false">Preparatoria</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="carreras-tab" data-toggle="tab"
+													href="#carreras" role="tab" aria-controls="carreras"
+													aria-selected="false">Carreras</a>
+											</li>
+											<li class="nav-item">
+												<a class="btn-lv2 nav-link" id="postgrado-tab" data-toggle="tab"
+													href="#postgrado" role="tab" aria-controls="postgrado"
+													aria-selected="false">Postgrados</a>
+											</li>
+										</ul>
+										<!-- relleno de ese menú -->
+										<div class="tab-content" id="ahiVanCategoriasIconos">
+											<div class="tab-pane fade show active" id="maternal" role="tabpanel"
+												aria-labelledby="maternal-tab">
+												<div class="flex-container">
+													<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+													puede ir
+													el logo de tu escuela maternal</img>
+													<a class="ver-todas-link" href="maternal.html">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="kinder" role="tabpanel"
+												aria-labelledby="kinder-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu kinder</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="primaria" role="tabpanel"
+												aria-labelledby="primaria-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu primaria</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="secundaria" role="tabpanel"
+												aria-labelledby="secundaria-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu secundaria</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="preparatoria" role="tabpanel"
+												aria-labelledby="preparatoria-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu preparatoria</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="carreras" role="tabpanel"
+												aria-labelledby="carreras-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu univesidad</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
+												</div>
+											</div>
+											<div class="tab-pane fade" id="postgrado" role="tabpanel"
+												aria-labelledby="posgrado-tab">
+												<div class="flex-container">
+														<img class="logo-tumbnail" src="img/assets/logo-vacio.png">Aquí
+														puede ir
+														el logo de tu campus</img>
+														<a class="ver-todas-link" href="#">Ver Todas</a>
 												</div>
 											</div>
 										</div>
+
 									</div>
 									<!--termina menu de escuelas-->
 								</div><!-- que pedo con ese div -->
@@ -120,10 +202,10 @@
 						</div>
 						<!--boton2-->
 						<div class="btn-index-redschool">
-							<div id="headingTwo">
+							<div id="headingTwo" data-toggle="collapse"
+							data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 								<h2 class="mb-0 btn-inline">
-									<button class="btn  collapsed" type="button" data-toggle="collapse"
-										data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<button class="btn  collapsed" type="button">
 
 										Clases y Cursos
 									</button>
@@ -133,24 +215,17 @@
 							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
 								data-parent="#accordionExample">
 								<div class="card-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-									brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-									aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-									Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-									ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-									farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-									accusamus labore sustainable VHS.
+									Estamos trabajando para ofrecerte la mayor cantidad de opciones educativas en un mismo lugar. Continúa al pendiente de nuestras actualizaciones. 
 								</div>
 							</div>
 						</div>
 						<!--boton3-->
 						<div class="btn-index-redschool">
-							<div id="headingThree">
+							<div id="headingThree" data-toggle="collapse"
+							data-target="#collapseThree" aria-expanded="false"
+							aria-controls="collapseThree">
 								<h2 class="mb-0 btn-inline">
-									<button class="btn collapsed" type="button" data-toggle="collapse"
-										data-target="#collapseThree" aria-expanded="false"
-										aria-controls="collapseThree">
+									<button class="btn collapsed" type="button">
 										Productos y Servicios
 									</button>
 								</h2>
@@ -159,14 +234,7 @@
 							<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
 								data-parent="#accordionExample">
 								<div class="card-body">
-									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-									richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-									brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-									aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-									Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente
-									ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
-									farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
-									accusamus labore sustainable VHS.
+									¿Tienes algún negocio? contáctanos.
 								</div>
 							</div>
 						</div>
