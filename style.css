@@ -215,10 +215,18 @@ h2.mb-0.btn-inline {
 }
 
 /*Valores para primaria, maternal, secu, etc..*/
-.btn-lv2 {
+.btn-lv2{
 	font-size: 0.77rem;
 	text-transform: uppercase;
-	padding: 0.7rem 0rem 0rem 0.7rem;
+	display: inline;
+	border: 0px solid transparent !important;
+}
+/* sobrescribe clases de bootstrap que tienen estilos feos */
+.nav-link {
+    display: block;
+	padding: .5rem 1rem 0px 0px !important;
+	background-color: transparent !important;
+	color: #098584;
 }
 
 /*tumbnail redondos index*/
