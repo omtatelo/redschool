@@ -201,9 +201,9 @@ h2.mb-0.btn-inline {
 	font-size: 0.8rem;
 }
 
-/*Apunta a la derecha*/
+/*Apunta abajo*/
 .triangulo1 {
-	background-image: url(img/assets/flecha1.svg);
+	background-image: url(img/assets/flecha2.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	height: 1.4em;
