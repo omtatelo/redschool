@@ -88,6 +88,10 @@ ul.breadcrumb li a:hover {
 	height: 38px;
 }
 
+#menuRedschool ul li a{
+	color: #ffffff !important;
+}
+
 /*quita el borde de la hamburguesa que tiene bootstrap por default*/
 .navbar-propio .navbar-toggler {
 	border-color: transparent !important;
@@ -280,6 +284,10 @@ h2.mb-0.btn-inline {
 	text-align: center;
 }
 
+.negro a{
+	color: #ffffff !important;
+}
+
 #bienvenida h1 {
 	font-size: 1.8em;
 	text-align: center;
@@ -305,12 +313,29 @@ footer img {
 	height: auto;
 }
 
-a {
+/* a {
 	color: #ffffff !important;
-}
+} */
 
 #redes-container {
 	height: 5em;
 }
 
 /* object-fit: cover; */
+
+/* menu de navegación inferior directorio */
+.subnav {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0px 0px 0px 0px;
+}
+
+.subnav li {
+	display: inline;
+	padding: 10px;
+
+}
+
+.subnav li a{
+	color: #B8F2F2 !important;
+}
