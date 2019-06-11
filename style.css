@@ -259,6 +259,7 @@ h2.mb-0.btn-inline {
 	margin-right: 15px;
 	text-align: center;
 	position: relative;
+	overflow: hidden;
 }
 
 /*Centra el logo verticalmente*/
@@ -268,8 +269,9 @@ h2.mb-0.btn-inline {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 80px;
-	width: 80px;
+	height: 85%;
+	width: auto;
+
   }
 
 /*todo lo que necesite flex*/
