@@ -6,7 +6,7 @@ body{
 }
 .gris-gradiente{
 
-	height: 15em;
+	height: 16.2em;
 	width: 100%;
 	background: linear-gradient(221.9deg, #8E9292 0%, #4A4947 100%);
 	z-index: -1;
