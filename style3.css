@@ -32,21 +32,7 @@ body {
     text-align: center;
 }
 
-.aparece {
-    display: inline;
-}
 
-@media only screen and (min-width: 992px) {
-    .aparece {
-        display: none;
-    }
-}
-
-@media screen and (max-width:991px) {
-    .se-va {
-        display: none;
-    }
-}
 
 .menu-fixing {
     z-index: -1;

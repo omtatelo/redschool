@@ -363,3 +363,20 @@ footer img {
 .subnav li a{
 	color: #B8F2F2 !important;
 }
+
+/* comportamiento de banners y elementos responsivos */
+.aparece {
+    display: inline;
+}
+
+@media only screen and (min-width: 992px) {
+    .aparece {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .se-va {
+        display: none;
+    }
+}
