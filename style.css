@@ -259,6 +259,7 @@ h2.mb-0.btn-inline {
 	margin-right: 15px;
 	text-align: center;
 	position: relative;
+	overflow: hidden;
 }
 
 /*Centra el logo verticalmente*/
@@ -268,8 +269,9 @@ h2.mb-0.btn-inline {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 80px;
-	width: 80px;
+	height: 85%;
+	width: auto;
+
   }
 
 /*todo lo que necesite flex*/
@@ -285,7 +287,11 @@ h2.mb-0.btn-inline {
 .escuela{
 	min-width: 33.3%;
 	max-width: 33.3%;
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
+
+}
+.escuela p{
+	padding-right: 10px;
 }
 
 /* @media only screen and (max-width: 991px) {
@@ -356,4 +362,21 @@ footer img {
 
 .subnav li a{
 	color: #B8F2F2 !important;
+}
+
+/* comportamiento de banners y elementos responsivos */
+.aparece {
+    display: inline;
+}
+
+@media only screen and (min-width: 992px) {
+    .aparece {
+        display: none;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .se-va {
+        display: none;
+    }
 }
