@@ -460,7 +460,6 @@ img {
 
 .header-area .logo-area {
   height: 170px;
-  border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
   background-color: #444242;
 }
@@ -491,7 +490,7 @@ img {
   font-size: 12px;
   text-transform: uppercase;
   line-height: 40px;
-  padding: 0;
+  padding: 0 20px;
 }
 
 .header-area .original-nav-area .subscribe-btn a:hover,
@@ -1331,6 +1330,14 @@ img {
     margin-left: 15px;
   }
 }
+/* CORRIGE boton de comentar */
+.contact-form button, .post-a-comment-area button {
+  background-color: #098584 !important;
+}
+.contact-form button, .post-a-comment-area button:hover {
+  background-color: #6BBFBF !important;
+}
+/* CORRIGE boton de comentar */
 
 .single_comment_area .children .single_comment_area .comment-meta {
   margin-bottom: 0;
