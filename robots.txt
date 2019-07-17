@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /contacto.html
+Disallow: /item.html
+noindex: /ejemplo-viejo.html
+noindex: /item.html
+noindex: /ejemplo-viejo.html
+
+Sitemap: http://redschool.com.mx/sitemap.xml

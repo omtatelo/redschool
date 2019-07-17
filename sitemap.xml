@@ -9,57 +9,62 @@
 
 <url>
   <loc>http://redschool.com.mx/</loc>
-  <lastmod>2019-06-13T06:44:01+00:00</lastmod>
+  <lastmod>2019-07-08T06:11:29+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/index.html</loc>
-  <lastmod>2019-06-13T06:44:01+00:00</lastmod>
+  <lastmod>2019-07-08T06:11:29+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/nosotros.html</loc>
-  <lastmod>2019-06-10T09:04:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://redschool.com.mx/contacto.html</loc>
-  <lastmod>2019-06-11T01:57:16+00:00</lastmod>
+  <lastmod>2019-07-08T03:23:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/maternal.html</loc>
-  <lastmod>2019-06-11T02:26:13+00:00</lastmod>
+  <lastmod>2019-07-05T06:53:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/kinder.html</loc>
-  <lastmod>2019-06-11T05:30:19+00:00</lastmod>
+  <lastmod>2019-07-10T05:08:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/primaria.html</loc>
-  <lastmod>2019-06-13T05:34:15+00:00</lastmod>
+  <lastmod>2019-07-10T05:08:20+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/secundaria.html</loc>
-  <lastmod>2019-06-13T06:00:36+00:00</lastmod>
+  <lastmod>2019-07-10T05:08:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/prepa.html</loc>
-  <lastmod>2019-06-13T06:29:03+00:00</lastmod>
+  <lastmod>2019-07-10T05:08:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/universidad.html</loc>
+  <lastmod>2019-07-08T06:16:37+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/postgrado.html</loc>
+  <lastmod>2019-07-08T06:16:36+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/ejemplo.html</loc>
-  <lastmod>2019-06-10T08:54:20+00:00</lastmod>
+  <lastmod>2019-07-08T03:23:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://redschool.com.mx/escuelas/america-mini.html</loc>
-  <lastmod>2019-06-10T08:01:47+00:00</lastmod>
+  <lastmod>2019-07-10T03:23:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -73,8 +78,38 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://redschool.com.mx/escuelas/sanjose.html</loc>
+  <lastmod>2019-07-06T16:20:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/nikola.html</loc>
+  <lastmod>2019-07-06T16:20:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/san-mateo.html</loc>
+  <lastmod>2019-07-06T16:20:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/jefferson.html</loc>
+  <lastmod>2019-07-06T16:20:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/cat.html</loc>
+  <lastmod>2019-07-06T16:20:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/jerusalem.html</loc>
+  <lastmod>2019-07-06T16:20:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://redschool.com.mx/escuelas/aleman.html</loc>
-  <lastmod>2019-06-11T04:02:57+00:00</lastmod>
+  <lastmod>2019-07-10T03:15:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -158,6 +193,81 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://redschool.com.mx/escuelas/mijares.html</loc>
+  <lastmod>2019-07-06T16:20:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/faraday.html</loc>
+  <lastmod>2019-07-06T16:20:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/ingles.html</loc>
+  <lastmod>2019-07-06T16:20:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/latinoamericano.html</loc>
+  <lastmod>2019-07-06T16:20:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/cumbres.html</loc>
+  <lastmod>2019-07-06T16:20:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/eliseo-mendoza.html</loc>
+  <lastmod>2019-07-06T16:20:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/montessori-san-isidro.html</loc>
+  <lastmod>2019-07-06T16:20:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/buenaventura.html</loc>
+  <lastmod>2019-07-06T16:20:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/maria-lavalle.html</loc>
+  <lastmod>2019-07-06T16:20:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/nuevo-mundo.html</loc>
+  <lastmod>2019-07-06T16:20:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/politecnico-aleman.html</loc>
+  <lastmod>2019-07-06T16:20:42+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/elvira-gonzalez.html</loc>
+  <lastmod>2019-07-10T04:02:30+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/montesquieu.html</loc>
+  <lastmod>2019-07-10T05:07:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/primo-verdad.html</loc>
+  <lastmod>2019-07-10T05:07:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/josefino.html</loc>
+  <lastmod>2019-07-10T05:07:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://redschool.com.mx/escuelas/biling%C3%BCe-lag.html</loc>
   <lastmod>2019-06-13T05:25:41+00:00</lastmod>
   <priority>0.64</priority>
@@ -173,6 +283,11 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://redschool.com.mx/escuelas/calmecac.html</loc>
+  <lastmod>2019-07-06T16:20:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://redschool.com.mx/escuelas/leon-felipe.html</loc>
   <lastmod>2019-06-13T05:44:26+00:00</lastmod>
   <priority>0.64</priority>
@@ -183,6 +298,11 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://redschool.com.mx/escuelas/la-luz.html</loc>
+  <lastmod>2019-07-06T16:20:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://redschool.com.mx/escuelas/obregon.html</loc>
   <lastmod>2019-06-13T06:20:25+00:00</lastmod>
   <priority>0.64</priority>
@@ -190,6 +310,56 @@
 <url>
   <loc>http://redschool.com.mx/escuelas/unamuno.html</loc>
   <lastmod>2019-06-13T06:27:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/jose-vasconcelos.html</loc>
+  <lastmod>2019-07-06T16:20:41+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/uane.html</loc>
+  <lastmod>2019-07-08T06:09:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/espanol.html</loc>
+  <lastmod>2019-07-10T05:07:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/cobaed-lerdo.html</loc>
+  <lastmod>2019-07-10T05:07:37+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/cedva-torreon.html</loc>
+  <lastmod>2019-07-08T06:09:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/normal-laguna.html</loc>
+  <lastmod>2019-07-08T06:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/uad-torreon.html</loc>
+  <lastmod>2019-07-08T06:09:28+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/uad-laguna.html</loc>
+  <lastmod>2019-07-08T06:09:29+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/ibero.html</loc>
+  <lastmod>2019-07-08T06:09:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://redschool.com.mx/escuelas/unipoli.html</loc>
+  <lastmod>2019-07-08T06:09:29+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
